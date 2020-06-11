@@ -1,7 +1,7 @@
 
 # Adapter Service Architecture
 
-<img align="right" width="310" height="90" src="AdapterServiceArchitecture.png.png">
+<img align="center" width="310" height="90" src="AdapterServiceArchitecture.png">
 
 # Checking out the Adatper Service branch
 
