@@ -1,3 +1,8 @@
+
+# Adapter Service Architecture
+
+<img align="right" width="310" height="90" src="AdapterServiceArchitecture.png.png">
+
 # Checking out the Adatper Service branch
 
 Fill in your Gerrit username for `<user>`.
@@ -130,12 +135,8 @@ To run the tests, login to the OV appliance and the following environment variab
 
 ```
 export PYTHON_TEST_PATH= “<PATH of the test dir>” //path of the python tests. Default is /var/tmp/sdl-service-integration-tests”
-
 export SERVICE_PORT=”8080" //default is 8080 if it’s not set
-```
-
-To run the test suite:
-```
+cd /var/tmp
 java -jar sdl-service-functional-tests-5.30.9999999-SNAPSHOT-with-dependencies.jar com.hp.ci.mgmt.sdl.tests.suites.ClaimAndConfigureTestSuite
 ```
 (C) Copyright 2020 Hewlett Packard Enterprise Development LP
